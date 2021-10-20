@@ -1,0 +1,37 @@
+
+Validation sanity check: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:00<00:00,  5.50it/s]
+  | Name                   | Type                          | Params
+-------------------------------------------------------------------------
+0 | bert                   | BertForSequenceClassification | 4.4 M
+1 | train_accuracy_metric  | Accuracy                      | 0
+2 | val_accuracy_metric    | Accuracy                      | 0
+3 | f1_metric              | F1                            | 0
+4 | precision_macro_metric | Precision                     | 0
+5 | recall_macro_metric    | Recall                        | 0
+6 | precision_micro_metric | Precision                     | 0
+7 | recall_micro_metric    | Recall                        | 0
+-------------------------------------------------------------------------
+4.4 M     Trainable params
+0         Non-trainable params
+4.4 M     Total params
+17.545    Total estimated model params size (MB)
+/home/zak/.cache/pypoetry/virtualenvs/mlops-basics-GjpM3qR3-py3.8/lib/python3.8/site-packages/pytorch_lightning/utilities/distributed.py:68: UserWarning: The dataloader, val dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+Epoch 0:  11%| | 4/37 [00:01<00:14,  2.23it/s, loss=0.638, v_num=jv64, valid/loss_epoch=0.651, valid/acc=0.648, valid/precision_macro=0.324, valid/recall_macro=0.500, valid/precision_micro=0.648, valid/recall_mi
+/home/zak/.cache/pypoetry/virtualenvs/mlops-basics-GjpM3qR3-py3.8/lib/python3.8/site-packages/pytorch_lightning/utilities/distributed.py:68: UserWarning: The dataloader, train dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+
+
+
+
+Epoch 0: 100%|█| 37/37 [00:13<00:00,  2.73it/s, loss=0.607, v_num=jv64, valid/loss_epoch=0.651, valid/acc=0.648, valid/precision_macro=0.324, valid/recall_macro=0.500, valid/precision_micro=0.648, valid/recall_m
+
+
+
+
+
+
+Epoch 1:  92%|▉| 34/37 [00:12<00:01,  2.70it/s, loss=0.603, v_num=jv64, valid/loss_epoch=0.648, valid/acc=0.656, valid/precision_macro=0.328, valid/recall_macro=0.500, valid/precision_micro=0.656, valid/recall_m
+
+
+Epoch 1: 100%|█| 37/37 [00:15<00:00,  2.46it/s, loss=0.603, v_num=jv64, valid/loss_epoch=0.650, valid/acc=0.656, valid/precision_macro=0.328, valid/recall_macro=0.500, valid/precision_micro=0.656, valid/recall_m
