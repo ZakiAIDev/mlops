@@ -1,0 +1,22 @@
+{
+    "os": "Linux-5.4.72-microsoft-standard-WSL2-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2021-10-20T08:42:49.967730",
+    "startedAt": "2021-10-20T08:42:47.157614",
+    "docker": null,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "w1/train.py",
+    "codePath": "mlOps_Basics/w1/train.py",
+    "git": {
+        "remote": "https://github.com/hzdr/dvc_tutorial_series.git",
+        "commit": "c069d89704a5bf5dae11072efa413c0c3bf43c95"
+    },
+    "email": "zbouhoun@assystem.com",
+    "root": "/mnt/c/Users/zbouhoun/wsl_projects/mlops/dvc_tutorial_series",
+    "host": "L-FRE-392358",
+    "username": "zak",
+    "executable": "/home/zak/.cache/pypoetry/virtualenvs/mlops-basics-GjpM3qR3-py3.8/bin/python"
+}
