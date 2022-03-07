@@ -1,5 +1,0 @@
-outs:
-- md5: 57ae1a22f02ce60f1fb5aa4fdedd74a2
-  size: 52678597
-  path: best-checkpoint.ckpt.ckpt
-  isexec: true
