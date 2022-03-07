@@ -5,7 +5,9 @@ import logging
 
 import pandas as pd
 import pytorch_lightning as pl
+
 from omegaconf.omegaconf import OmegaConf
+
 from pytorch_lightning.callbacks import ModelCheckpoint
 from pytorch_lightning.callbacks.early_stopping import EarlyStopping
 from pytorch_lightning.loggers import WandbLogger
@@ -48,6 +50,7 @@ def main(cfg):
     logger.info(OmegaConf.to_yaml(cfg, resolve=True))
     logger.info(f"Using the model: {cfg.model.name}")
     logger.info(f"Using the tokenizer: {cfg.model.tokenizer}")
+    
     cola_data = DataModule(
         cfg.model.tokenizer, cfg.processing.batch_size, cfg.processing.max_length
     )
